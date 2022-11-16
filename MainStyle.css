@@ -1,0 +1,103 @@
+:root {
+  --bgcol: #52eca4;
+  --textbordercol: #76fdbc;
+  --textcol: #464646;
+  --sectioncol: #55f994;
+  --PlaceHoldP: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas pretium aenean pharetra magna. Dictum at tempor commodo ullamcorper a lacus vestibulum sed. Non odio euismod lacinia at quis risus sed. Lectus nulla at volutpat diam ut venenatis tellus in. Blandit aliquam etiam erat velit. Eu facilisis sed odio morbi quis commodo odio. Dui sapien eget mi proin sed libero enim sed faucibus. Vel turpis nunc eget lorem dolor sed viverra ipsum. Nunc sed blandit libero volutpat sed cras ornare. Quis commodo odio aenean sed adipiscing.";
+  --PlaceHoldH: "Hold this head";
+}
+
+body {
+  background-color: var(--bgcol);
+}
+#Welding {
+  color: var(--textcol);
+  background-color: var(--textbordercol);
+  text-align: center;
+}
+#h1_2 {
+  text-align: center;
+  background-color: var(--sectioncol);
+  padding-bottom: 20px;
+}
+#question1 {
+  display: inline-block;
+  text-align: center;
+  align-content: left;
+  padding-right: 100px;
+}
+#Whyh {
+  color: var(--textcol);
+  background-color: var(--textbordercol);
+}
+#Whyp {
+  color: var(--textcol);
+  background-color: var(--textbordercol);
+  width: 400px;
+}
+#question2 {
+  display: inline-block;
+  text-align: center;
+  align-content: right;
+  padding-left: 100px;
+}
+
+#Whath {
+  color: var(--textcol);
+  background-color: var(--textbordercol);
+}
+
+#Whatp {
+  color: var(--textcol);
+  background-color: var(--textbordercol);
+  width: 400px;
+}
+
+#h3_4 {
+  text-align: center;
+  background-color: var(--sectioncol);
+  padding-top: 20px;
+}
+
+#question3 {
+  display: inline-block;
+  text-align: center;
+  align-content: left;
+  padding-right: 100px;
+}
+
+#lh1 {
+  color: var(--textcol);
+  background-color: var(--textbordercol);
+}
+
+#pl1 {
+  color: var(--textcol);
+  width: 400px;
+}
+
+#question4 {
+  display: inline-block;
+  text-align: center;
+  align-content: right;
+  padding-left: 100px;
+}
+
+#benh {
+  color: var(--textcol);
+  text-align: center;
+  background-color: var(--textbordercol);
+}
+
+#benp {
+  color: var(--textcol);
+  text-align: center;
+  background-color: var(--textbordercol);
+  width: 400px;
+}
+
+#orl1 {
+  text-align: left;
+  color: var(--textcol);
+  background-color: var(--textbordercol);
+}
