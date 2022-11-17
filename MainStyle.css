@@ -1,18 +1,24 @@
 :root {
-  --bgcol: #52eca4;
-  --textbordercol: #76fdbc;
+  --bordercol: #52eca4;
+  --bgcol: rgb(148, 236, 178);
+  --texthighlightcol: #76fdbc;
   --textcol: #464646;
   --sectioncol: #55f994;
 }
 
 body {
   background-color: var(--bgcol);
+  margin-left: 40px;
+  margin-right: 40px;
 }
+
 #Welding {
-  color: var(--textcol);
-  background-color: var(--textbordercol);
   text-align: center;
+  color: var(--textcol);
+  background: var(--texthighlightcol);
+  border: var(--bordercol) 4px solid;
 }
+
 #h1_2 {
   text-align: center;
   background-color: var(--sectioncol);
@@ -26,14 +32,15 @@ body {
 }
 #Whyh {
   color: var(--textcol);
-  background-color: var(--textbordercol);
+  background-color: var(--texthighlightcol);
+  border: var(--bordercol) 4px solid;
 }
 #Whyp {
   color: var(--textcol);
-  background-color: var(--textbordercol);
+  background-color: var(--texthighlightcol);
+  border: var(--bordercol) 4px solid;
   width: 400px;
 }
-
 #question2 {
   display: inline-block;
   text-align: center;
@@ -43,13 +50,15 @@ body {
 
 #Whath {
   color: var(--textcol);
-  background-color: var(--textbordercol);
+  background-color: var(--texthighlightcol);
+  border: var(--bordercol) 4px solid;
 }
 
 #Whatp {
   color: var(--textcol);
-  background-color: var(--textbordercol);
+  background-color: var(--texthighlightcol);
   width: 400px;
+  border: var(--bordercol) 4px solid;
 }
 
 #h3_4 {
@@ -67,7 +76,8 @@ body {
 
 #lh1 {
   color: var(--textcol);
-  background-color: var(--textbordercol);
+  background-color: var(--texthighlightcol);
+  border: var(--bordercol) 4px solid;
 }
 
 #pl1 {
@@ -85,18 +95,23 @@ body {
 #orl1 {
   text-align: left;
   color: var(--textcol);
-  background-color: var(--textbordercol);
+  background-color: var(--texthighlightcol);
+  border: var(--bordercol) 4px solid;
 }
 
 #Benh {
   color: var(--textcol);
   text-align: center;
-  background-color: var(--textbordercol);
+  background-color: var(--texthighlightcol);
+  border: var(--bordercol) 4px solid;
 }
 
 #Benp {
   color: var(--textcol);
   text-align: center;
-  background-color: var(--textbordercol);
+  background-color: var(--texthighlightcol);
   width: 400px;
+  border: var(--bordercol) 4px solid;
 }
+
+
