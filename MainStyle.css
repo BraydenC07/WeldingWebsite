@@ -3,8 +3,6 @@
   --textbordercol: #76fdbc;
   --textcol: #464646;
   --sectioncol: #55f994;
-  --PlaceHoldP: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas pretium aenean pharetra magna. Dictum at tempor commodo ullamcorper a lacus vestibulum sed. Non odio euismod lacinia at quis risus sed. Lectus nulla at volutpat diam ut venenatis tellus in. Blandit aliquam etiam erat velit. Eu facilisis sed odio morbi quis commodo odio. Dui sapien eget mi proin sed libero enim sed faucibus. Vel turpis nunc eget lorem dolor sed viverra ipsum. Nunc sed blandit libero volutpat sed cras ornare. Quis commodo odio aenean sed adipiscing.";
-  --PlaceHoldH: "Hold this head";
 }
 
 body {
@@ -83,21 +81,21 @@ body {
   padding-left: 100px;
 }
 
-#benh {
-  color: var(--textcol);
-  text-align: center;
-  background-color: var(--textbordercol);
-}
-
-#benp {
-  color: var(--textcol);
-  text-align: center;
-  background-color: var(--textbordercol);
-  width: 400px;
-}
-
 #orl1 {
   text-align: left;
   color: var(--textcol);
   background-color: var(--textbordercol);
+}
+
+#Benh {
+  color: var(--textcol);
+  text-align: center;
+  background-color: var(--textbordercol);
+}
+
+#Benp {
+  color: var(--textcol);
+  text-align: center;
+  background-color: var(--textbordercol);
+  width: 400px;
 }
