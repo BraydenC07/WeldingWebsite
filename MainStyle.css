@@ -24,23 +24,27 @@ body {
   background-color: var(--sectioncol);
   padding-bottom: 20px;
 }
+
 #question1 {
   display: inline-block;
   text-align: center;
   align-content: left;
   padding-right: 100px;
 }
+
 #Whyh {
   color: var(--textcol);
   background-color: var(--texthighlightcol);
   border: var(--bordercol) 4px solid;
 }
+
 #Whyp {
   color: var(--textcol);
   background-color: var(--texthighlightcol);
   border: var(--bordercol) 4px solid;
   width: 400px;
 }
+
 #question2 {
   display: inline-block;
   text-align: center;
