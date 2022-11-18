@@ -130,7 +130,7 @@ body {
 
 #imgs2 {
   display: inline-block;
-  width: 20px;
+  width: 200px;
   height: 120px;
   padding-left: 200px;
   border: var(--bordercol) 4px solid;
