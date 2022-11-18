@@ -24,27 +24,23 @@ body {
   background-color: var(--sectioncol);
   padding-bottom: 20px;
 }
-
 #question1 {
   display: inline-block;
   text-align: center;
   align-content: left;
   padding-right: 100px;
 }
-
 #Whyh {
   color: var(--textcol);
   background-color: var(--texthighlightcol);
   border: var(--bordercol) 4px solid;
 }
-
 #Whyp {
   color: var(--textcol);
   background-color: var(--texthighlightcol);
   border: var(--bordercol) 4px solid;
   width: 400px;
 }
-
 #question2 {
   display: inline-block;
   text-align: center;
@@ -116,4 +112,28 @@ body {
   background-color: var(--texthighlightcol);
   width: 400px;
   border: var(--bordercol) 4px solid;
+}
+
+#imgsd {
+  text-align: center;
+}
+
+#imgs1 {
+  display: inline-block;
+  width: 200px;
+  height: 125px;
+  padding-right: 200px;
+  border: var(--bordercol) 4px solid;
+  vertical-align: center;
+  background-color: var(--sectioncol);
+}
+
+#imgs2 {
+  display: inline-block;
+  width: 200px;
+  height: 125px;
+  padding-left: 200px;
+  border: var(--bordercol) 4px solid;
+  vertical-align: center;
+  background-color: var(--sectioncol);
 }
