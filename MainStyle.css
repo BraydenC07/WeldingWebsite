@@ -131,9 +131,16 @@ body {
 #imgs2 {
   display: inline-block;
   width: 200px;
-  height: 120px;
+  height: 125px;
   padding-left: 200px;
   border: var(--bordercol) 4px solid;
   vertical-align: center;
   background-color: var(--sectioncol);
+}
+
+#embeddiv1 {
+  text-align: center;
+  align-content: center;
+  background-color: var(--bordercol);
+  background-size: 30px;
 }
