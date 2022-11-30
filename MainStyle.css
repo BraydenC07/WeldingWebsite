@@ -12,6 +12,12 @@ body {
   margin-right: 40px;
 }
 
+#head {
+  text-align: center;
+  background-color: var(--sectioncol);
+  padding-bottom: 20px;
+}
+
 #Welding {
   text-align: center;
   color: var(--textcol);
@@ -19,59 +25,24 @@ body {
   border: var(--bordercol) 4px solid;
 }
 
-#h1_2 {
-  text-align: center;
-  background-color: var(--sectioncol);
-  padding-bottom: 20px;
-}
-#question1 {
-  display: inline-block;
-  text-align: center;
-  align-content: left;
-  padding-right: 100px;
-}
-#Whyh {
+#hq {
   color: var(--textcol);
   background-color: var(--texthighlightcol);
   border: var(--bordercol) 4px solid;
 }
-#Whyp {
-  color: var(--textcol);
-  background-color: var(--texthighlightcol);
-  border: var(--bordercol) 4px solid;
-  width: 400px;
-}
-#question2 {
+
+#questionright {
   display: inline-block;
   text-align: center;
   align-content: right;
-  padding-left: 100px;
+  padding-right: 100px;
 }
 
-#Whath {
-  color: var(--textcol);
-  background-color: var(--texthighlightcol);
-  border: var(--bordercol) 4px solid;
-}
-
-#Whatp {
-  color: var(--textcol);
-  background-color: var(--texthighlightcol);
-  width: 400px;
-  border: var(--bordercol) 4px solid;
-}
-
-#h3_4 {
-  text-align: center;
-  background-color: var(--sectioncol);
-  padding-top: 20px;
-}
-
-#question3 {
+#questionleft {
   display: inline-block;
   text-align: center;
   align-content: left;
-  padding-right: 100px;
+  padding-left: 100px;
 }
 
 #lh1 {
@@ -85,28 +56,13 @@ body {
   width: 400px;
 }
 
-#question4 {
-  display: inline-block;
-  text-align: center;
-  align-content: right;
-  padding-left: 100px;
-}
-
 #orl1 {
   text-align: left;
   color: var(--textcol);
   background-color: var(--texthighlightcol);
   border: var(--bordercol) 4px solid;
 }
-
-#Benh {
-  color: var(--textcol);
-  text-align: center;
-  background-color: var(--texthighlightcol);
-  border: var(--bordercol) 4px solid;
-}
-
-#Benp {
+#pq {
   color: var(--textcol);
   text-align: center;
   background-color: var(--texthighlightcol);
@@ -143,4 +99,18 @@ body {
   align-content: center;
   background-color: var(--bordercol);
   background-size: 30px;
+}
+
+#LinkBar {
+  text-align: center;
+  border: var(--bordercol) 4px solid;
+  background-color: var(--sectioncol);
+}
+
+#AboutLink {
+  padding-right: 30px;
+}
+
+#HomeLink {
+  padding-left: 30px;
 }
