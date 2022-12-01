@@ -1,9 +1,9 @@
 :root {
-  --bordercol: #52eca4;
-  --bgcol: rgb(148, 236, 178);
-  --texthighlightcol: #76fdbc;
-  --textcol: #464646;
-  --sectioncol: #55f994;
+  --bordercol: #868686;
+  --bgcol: #0b132b;
+  --texthighlightcol: #1c2541;
+  --textcol: #868686;
+  --sectioncol: #3a506b;
 }
 
 body {
@@ -109,8 +109,10 @@ body {
 
 #AboutLink {
   padding-right: 30px;
+  color: rgb(123, 123, 255);
 }
 
 #HomeLink {
   padding-left: 30px;
+  color: rgb(123, 123, 255);
 }
